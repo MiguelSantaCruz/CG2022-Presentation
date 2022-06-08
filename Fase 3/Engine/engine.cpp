@@ -24,10 +24,10 @@ float distance_Origin = 0;
 int tracking = 0;
 
 /* Modo de desenho True -> GL_FILL False -> GL_LINE */
-bool drawModeFill = true;
+bool drawModeFill = false;
 
 //Desenhar os eixos
-bool drawAxisBool = false;
+bool drawAxisBool = true;
 
 /* Culling Mode True -> GL_FRONT False -> GL_BACK*/
 bool frontCull = false;

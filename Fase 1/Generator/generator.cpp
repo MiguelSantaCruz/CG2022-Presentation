@@ -219,7 +219,7 @@ void createSphere(float raio, int stacks, int slices) {
         float delta2 = M_PI / slices;
 
         fstream file;
-        file.open(filename,ios::out);
+        file.open(filename);
         float x1, y1, z1, x2, y2, z2, x3, y3, z3, x4, y4, z4;
         float a, aux = 0;
 
@@ -262,7 +262,6 @@ void createSphere(float raio, int stacks, int slices) {
             aux += delta2;
         }
 }
-
 
 void createCone(float radius, float height, int slices, int stacks) {
     fstream file;
